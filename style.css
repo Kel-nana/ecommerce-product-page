@@ -62,7 +62,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 0px 20px;
+  gap: 0px 100px;
   grid-template-areas: ". container-left, container-left .";
   margin-top: 140px;
 }
