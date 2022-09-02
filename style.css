@@ -39,7 +39,7 @@ body {
 }
 
 .nav-space {
-  margin-right: 20rem;
+  margin-right: 25rem;
 }
 
 .nav-ctr {
@@ -56,4 +56,50 @@ body {
 
 .img-nav {
   width: 50px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 20px;
+  grid-template-areas: ". container-left, container-left .";
+  margin-top: 140px;
+}
+
+.container-left {
+  margin: 0 auto;
+}
+
+.img-left {
+  /* margin: 0 auto; */
+  height: 350px;
+  width: 370px;
+  border-radius: 10px;
+}
+
+.icon-scr {
+  margin-top: 15px;
+  height: 70px;
+  width: 70px;
+  margin-right: 26px;
+  border-radius: 10px;
+}
+
+h4 {
+  color: #d05e01;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+h1 {
+  width: 300px;
+}
+
+p {
+  margin-top: 35px;
+  text-align: left;
+  width: 400px;
+  line-height: 1.5;
 }
